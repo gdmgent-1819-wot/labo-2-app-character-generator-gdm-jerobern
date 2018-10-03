@@ -9,7 +9,7 @@ import random
 from math import floor, ceil
 
 # Update with firebase info
-serviceAccountKey = '../wot-1819-jerobern-firebase-adminsdk-4353z-76d5509e36.json'
+serviceAccountKey = '../key.json'
 databaseURL = 'https://wot-1819-jerobern.firebaseio.com/'
 
 try:
