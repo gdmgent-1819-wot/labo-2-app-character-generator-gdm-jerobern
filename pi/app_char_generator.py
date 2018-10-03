@@ -45,6 +45,7 @@ def cb(self):
         for color in current_matrix:
             current_matrix_tuple.append(tuple(map(int, color[1:-1].split(','))))
         sense_hat.set_pixels(current_matrix_tuple)
+    else: sense_hat.clear()
     
 def main():
   firebase_ref_current_character.listen(cb)
