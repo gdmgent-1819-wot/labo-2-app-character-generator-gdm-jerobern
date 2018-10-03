@@ -1,0 +1,24 @@
+.ledContainer {
+  position: relative;
+  width: 100vw;
+  height: 400px;
+}
+
+.led {
+  display: block;
+  position: absolute;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.led--on {
+  background: red;
+}
+
+.led--off {
+  background: none;
+}
+
+li {
+  cursor: pointer;
+}
